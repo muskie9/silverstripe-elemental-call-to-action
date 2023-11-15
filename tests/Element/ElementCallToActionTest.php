@@ -1,6 +1,7 @@
 <?php
 
 namespace Dynamic\Elements\CTA\Elements\Test;
+
 use SilverStripe\Forms\FieldList;
 use SilverStripe\Dev\SapphireTest;
 use Dynamic\Elements\CTA\Elements\ElementCallToAction;
