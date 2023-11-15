@@ -1,0 +1,44 @@
+{
+    "name": "dynamic/silverstripe-elemental-call-to-action",
+    "description": "A call to action block for the Elemental block system",
+    "license": "BSD-3-Clause",
+    "type": "silverstripe-vendormodule",
+    "keywords": [
+        "silverstripe",
+        "CMS",
+        "Elemental",
+        "Call To Action",
+        "CTA"
+    ],
+    "authors": [
+        {
+            "name": "Dynamic",
+            "email": "dev@dynamicagency.com",
+            "homepage": "https://www.dynamicagency.com"
+        }
+    ],
+    "require": {
+        "dnadesign/silverstripe-elemental": "^5",
+        "silverstripe/linkfield": "^3.0",
+        "silverstripe/recipe-cms": "^5.0"
+    },
+    "require-dev": {
+        "silverstripe/recipe-testing": "^3"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Dynamic\\Elements\\CTA\\": "src/",
+            "Dynamic\\Elements\\CTA\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true,
+            "silverstripe/recipe-plugin": true,
+            "silverstripe/vendor-plugin": true
+        },
+        "process-timeout": 600
+    }
+}
