@@ -13,7 +13,7 @@ A call to action block for the Elemental block system
 ## Requirements
 
 * dnadesign/silverstripe-elemental: ^5.0
-* silverstripe/linkfield: ^3
+* silverstripe/linkfield: ^4
 
 ## Installation
 
